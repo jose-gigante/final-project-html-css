@@ -1,0 +1,32 @@
+.pie {
+    display: flex;
+	height: 60px;
+    font-size: 14px;
+    background-color: #36383F;
+    color: #FFFFFF;
+}
+
+.pie > .pie-codepen {
+    width: 25%;
+    height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;  
+    padding: 20px 10px;
+    font-weight: 700;
+    font-size: 1.20em;
+    text-align: center;
+	box-sizing: border-box;
+	border: 1px solid #676767;
+}
+
+.pie > .pie-codepen a {
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.pie > .pie-codepen a:hover {
+    color: #F4E187;
+    letter-spacing: 1px;
+}

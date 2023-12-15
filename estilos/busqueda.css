@@ -1,0 +1,61 @@
+.formulario-busqueda {
+	display:block;
+}
+
+.formulario-busqueda > .lupa {
+    background-color: #000000;
+    color: #7B7E8B;
+    font-size: 2em;
+    padding: 10px;
+    border: 0px solid #000000;
+    outline: none;
+}
+	
+.formulario-busqueda:hover > .busqueda {
+	display:block;
+}
+
+.formulario-busqueda > .busqueda > .busqueda-texto {
+    font-family: inherit;
+    font-size: 1.1em;
+    font-weight: 300;
+    padding: 15px 15px;
+    border-radius: 3px;
+    border: none;
+    width: 200px;
+    transition: all 0.3s; 
+}
+
+.formulario-busqueda > .busqueda > .busqueda-texto:focus {
+    outline: none;
+}
+
+.formulario-busqueda > .busqueda > .busqueda-texto:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.formulario-busqueda > .busqueda > .busqueda-boton {
+    font-family: inherit;
+    background-color: #4BCE79;
+    color: #000000;
+    font-size: 1.1em;
+    font-weight: 700;
+    padding: 15px;
+    border: 1px solid #36383F;
+    border-radius: 5px;
+    outline: none;
+	white-space: nowrap;
+}
+
+.formulario-busqueda > .busqueda > .busqueda-boton:hover {
+    background-color: #F4E187;
+}
+
+.formulario-busqueda > .busqueda > .busqueda-boton:active {
+    background-color: #4BCE79;
+	color: #FFFFFF;
+}
+
+.busqueda, .formulario-busqueda:hover > .lupa, .hidden > .lupa {
+	display: none;
+}

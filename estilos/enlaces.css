@@ -1,0 +1,49 @@
+.enlaces {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 16px;
+}
+
+.enlaces > .enlace {
+    padding-right: 15px;
+    font-weight: 900;
+    font-size: 1.20em;
+}
+
+.enlaces > .enlace a {
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.enlaces > .enlace a:hover {
+    color: #F4E187;
+}
+
+.enlaces > .enlace-combo {
+    padding-left: 30px;
+    padding-right: 60px;
+    font-weight: 400;
+    word-spacing: 10px;
+    font-size: 1.10em;
+	white-space: nowrap;
+}
+
+.enlaces > .enlace-combo a {
+    color: #ACACAC;
+    text-decoration: none;
+}
+
+.enlaces > .enlace-combo a:hover {
+    color: #4BCE79;
+}
+
+.enlaces > .enlace-combo i {
+    font-size: 0.75em;
+    color: #FFFFFF;
+}
+
+.enlaces > .enlace-combo a:hover i {
+    color: #4BCE79;
+}

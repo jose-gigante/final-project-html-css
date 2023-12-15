@@ -1,0 +1,131 @@
+@media (max-width: 615px) {
+
+    .cabecera {
+        grid-template-columns: 1fr;
+	    height: 100%;
+		padding-bottom: 70px;
+    }
+
+    .cabecera > .cabecera-logo {
+        order: 1;
+        flex-direction: column;
+	    padding: 0px;
+		margin: 30px 0px;
+    }
+
+	.cabecera > .cabecera-logo img {
+    	height: 80px;
+	}
+     
+    .cabecera > .cabecera-exploracion {
+        order: 2;
+	    margin: 10px 0px;
+	    padding: 0px;
+	}
+	
+	.cabecera > .cabecera-exploracion > .cabecera-exploracion-texto {
+		text-align: center;
+		margin: 10px 0px;
+    }
+	
+	.enlaces {
+        flex-direction: column;
+		margin: 10px 0px;
+	}
+
+	.enlaces > .enlace {
+    	padding: 0px;
+	}
+
+	.enlaces > .enlace-combo {
+    	padding: 0px;
+		margin: 30px 0px;
+	}
+     
+    .cabecera {
+		height: 510px;     
+	}
+	
+    .cabecera > .cabecera-controles {
+        order: 3;
+	    justify-content: center;
+		margin: 20px 0px;
+    }
+
+	.cabecera > .cabecera-controles > .formulario {
+		order: 1;
+    	padding: 5px;
+	}
+
+	.cabecera > .cabecera-controles > .cabecera-ruptura {
+		order: 2;
+		display:block;
+	}
+	
+	.cabecera > .cabecera-controles > .formulario-busqueda {
+		order: 3;
+    	padding: 10px;
+	}
+
+	.formulario-busqueda > .busqueda > .busqueda-texto {
+	    width: 245px;
+	}
+	
+	.cuerpo {
+    	height: 100%;
+	    grid-template-columns: 1fr;
+		padding-bottom: 30px;
+	}
+
+	.cuerpo > .cuerpo-izquierda {
+		padding: 80px 30px;
+		text-align: center;
+	}
+
+	.cuerpo > .cuerpo-izquierda > .cuerpo-izquierda-botones {
+        flex-direction: column;
+    	justify-content: center;
+	}
+
+	.cuerpo > .cuerpo-izquierda > .cuerpo-izquierda-botones > .formulario {
+    	margin: 10px 0px;
+	}
+
+	.cuerpo > .cuerpo-derecha {
+		padding: 0px;
+    	grid-template-columns: 1fr;
+	}
+	
+	.cuerpo > .cuerpo-derecha > .cuerpo-derecha-texto {
+        order: 1;
+	    justify-content: center;
+	    padding: 0px;
+		margin: 10px 0px;
+	}
+
+	.cuerpo > .cuerpo-derecha > .cuerpo-derecha-imagen {
+        order: 2;
+	    justify-content: center;
+	}
+
+	.cuerpo > .cuerpo-derecha > .cuerpo-derecha-imagen img {
+    	width: 100%;
+	}
+	
+    .pie {
+        flex-direction: column;
+		height: 100%;
+    	width: 100%;
+    }
+
+	.pie > .pie-codepen {
+	    width: 100%;
+	    padding: 20px 0px;
+	    border: none;
+	    border-top: 1px solid #676767;
+	    border-bottom: 1px solid #676767;
+	    text-align: center;
+	}
+	
+}
+
